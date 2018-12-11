@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<!--idは一つの要素を指定するもの。同じidが２つあってはいけない
+大文字と小文字は区別される-->
+<!--classは分類なので同じものがあって良い。値は半角スペースで区切って
+複数指定することも可能。大文字小文字区別される-->
+<!--titleは補足情報。マウスカーソルを乗せたときに出てくる-->
+
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<!--metaは空要素という終了タグがない要素-->
+<title>サンプル:タイトルタグは絶対必要</title>
+
+<!--cssを直接head内に書くことができる-->
+<!--urlは、htmlファイルと同じフォルダの中のAフォルダに入っている画像であれば、
+    A/dakuto.jpgという書き方をする-->
+<!--background-repeat:で繰り返し表示するか指定する-->
+<style>
+
+
+</style>
+
+
+</head>
+<body>
+<h5>インプット色々</h5>
+<!--sizeで文字数指定、最大文字数指定はmaxlength-->
+テキスト<input type="text" value="初期値や送信値" size="10"><br>
+テキスト変更不可<input type="text" value="" readonly><br>
+パスワード<input type="password"><br>
+<h6>チェックボックスとラジオは同じ選択項目内は同じnameをつけること</h6>
+チェックボックス<input type="checkbox"><br>
+チェックボックス変更不可<input type="checkbox" disabled><br>
+ラジオ<input type="radio" name="name"><br>
+ラジオ<input type="radio"name="name" checked><br>
+ラジオ<input type="radio"name="name"><br>
+
+ファイル<input type="file"><br>
+隠し<input type="hidden"><br>
+送信<input type="submit"><br>
+リセット<input type="reset"><br>
+ボタン<input type="button" value="ここはボタンのラベル"><br>
+イメージ<input type="image" src="dakuto.jpg" width=30><br>
+
+
+<br>
+サーチ<input type="search" value="" ><br>
+電話番号<input type="tel" value="" ><br>
+URL<input type="url" value="" ><br>
+メール  <input type="email" value="" ><br>
+デイトタイム<input type="datetime" value="" ><br>
+デイ<input type="date" value="" ><br>
+マンス<input type="month" value="" ><br>
+週<input type="week" value="" ><br>
+タイム<input type="time" value="" ><br>
+number<input type="number" value="" ><br>
+スライド？<input type="range" value="" ><br>
+
+
+</body>
+<!--コメントの入れ方-->
+
+</html>
